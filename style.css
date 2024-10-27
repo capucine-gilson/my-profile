@@ -1,0 +1,80 @@
+body {
+	background-color: #F3F3E0;
+	color: #133E87;
+	font-family: "Instrument Serif";
+	font-size: 30px;
+}
+
+h1,h2 {
+	color : #608BC1;
+	font-weight: 900;
+	letter-spacing: 100;
+	font-size: 16;
+}
+a{
+	text-decoration: none;
+}
+a : hover {
+	color: #F3F3E0}
+.center {
+    text-align: center;
+    i
+	}
+.box {style="
+    width: 700px;
+    background-color: #EEF5FF;
+    padding: 30px;
+    margin: 50px auto;
+   margin-left: 200px; /* marge de 20px à gauche */
+    margin-right: 200px;
+    box-shadow: 8px 10px 10px #608BC1;
+    border-radius: 7px;
+    /* border-block-width: 5px; */"
+	}
+
+.img-cercle {
+	border-radius: 50%;
+	}
+.horizontale {
+	list-style: none;
+	padding-left: 0px;
+}
+.horizontale li {
+	display: inline;
+	padding: 10px;
+}
+.container {
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+@media (min-width: 600px) { 
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+.button {
+    background-color: #133E87;
+    color: #F3F3E0; 
+    padding: 15px 30px; 
+    border: none;
+    border-radius: 5px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #CBDCEB;
+}
+
+
