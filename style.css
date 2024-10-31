@@ -1,26 +1,27 @@
+
 body {
-	background-color: #F3F3E0;
-	color: #133E87;
-	font-family: "Instrument Serif";
-	font-size: 30px;
-	text-align: center;
+    background-color: #F3F3E0;
+    color: #133E87;
+    font-family: "Instrument Serif";
+    font-size: 30px;
+    text-align: center;
 }
 
 h1,h2 {
-	color : #608BC1;
-	font-weight: 900;
-	letter-spacing: 100;
-	font-size: 16;
+    color : #608BC1;
+    font-weight: 900;
+    letter-spacing: 100;
+    font-size: 16;
 }
 a{
-	text-decoration: none;
+    text-decoration: none;
 }
 a : hover {
-	color: #F3F3E0}
+    color: #F3F3E0}
 .center {
     text-align: center;
     i
-	}
+    }
 .box {style="
     width: 700px;
     background-color: #EEF5FF;
@@ -31,18 +32,18 @@ a : hover {
     box-shadow: 8px 10px 10px #608BC1;
     border-radius: 7px;
     /* border-block-width: 5px; */"
-	}
+    }
 
 .img-cercle {
-	border-radius: 50%;
-	}
+    border-radius: 50%;
+    }
 .horizontale {
-	list-style: none;
-	padding-left: 0px;
+    list-style: none;
+    padding-left: 0px;
 }
 .horizontale li {
-	display: inline;
-	padding: 10px;
+    display: inline;
+    padding: 10px;
 }
 .container {
     margin-left: 10px; 
@@ -77,5 +78,22 @@ a : hover {
 .button:hover {
     background-color: #CBDCEB;
 }
+
+.icon {
+    list-style: none;
+    padding-left: 0px;
+}
+.icon li{
+    display: inline;
+    padding: 10px;
+}
+.icon i {
+    font-size: 50px;
+    color: #133E87 ;
+}
+.icon i:hover {
+    color: #CBDCEB;
+}
+
 
 
